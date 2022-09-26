@@ -5,7 +5,7 @@ import '../assets/fonts/NimbusSanL-Reg.otf';
 
 
 export const GlobalStyles = styled.createGlobalStyle`
-  @font-face {
+  /* @font-face {
     font-family: 'Nimbus Sans';
     font-style: normal;
     font-weight: 400;
@@ -21,7 +21,7 @@ export const GlobalStyles = styled.createGlobalStyle`
     font-family: 'Blue Vinyl';
     font-style: normal;
     src: url(../assets/fonts/NimbusSanL-Reg.otf);
-  }
+  } */
   :root {
     --light-grey: hsl(0, 0%, 85%);
     --md-grey: hsl(0, 0%, 46%);
