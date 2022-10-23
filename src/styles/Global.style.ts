@@ -1,32 +1,30 @@
 import * as styled from 'styled-components'
-import '../assets/fonts/blue_vinyl_regular.otf'
-import '../assets/fonts/NimbusSanL-Bol.otf';
-import '../assets/fonts/NimbusSanL-Reg.otf';
-// import BlueVinylRegular from '../assets/fonts/blue_vinyl_regular.otf';
-// import NimbusSansBold from '../assets/fonts/NimbusSanL-Bol.otf';
-// import NimbusSansRegular from '../assets/fonts/NimbusSanL-Reg.otf';
+// import '../assets/fonts/blue_vinyl_regular.otf'
+// import '../assets/fonts/NimbusSanL-Bol.otf';
+// import '../assets/fonts/NimbusSanL-Reg.otf';
+import BlueVinylRegular from '../assets/fonts/blue_vinyl_regular.otf';
+import NimbusSansBold from '../assets/fonts/NimbusSanL-Bol.otf';
+import NimbusSansRegular from '../assets/fonts/NimbusSanL-Reg.otf';
 
 
 export const GlobalStyles = styled.createGlobalStyle`
-      /* @font-face {
-        font-family: 'Nimbus Sans';
-        font-style: normal;
-        font-weight: 400;
-        src: url(../assets/fonts/NimbusSanL-Reg.otf);
-      }
-      @font-face {
-        font-family: 'Nimbus Sans Bold';
-        font-style: normal;
-        font-weight: 600;
-        src: url(../assets/fonts/NimbusSanL-Bol.otf);
-      }
-      @font-face {
-        font-family: 'Blue Vinyl';
-        font-style: normal;
-        src: url(../assets/fonts/NimbusSanL-Reg.otf);
-      } */
-
-
+  @font-face {
+    font-family: 'Nimbus Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(${NimbusSansRegular});
+  }
+  @font-face {
+    font-family: 'Nimbus Sans Bold';
+    font-style: normal;
+    font-weight: 600;
+    src: url(${NimbusSansBold});
+  }
+  @font-face {
+    font-family: 'Blue Vinyl';
+    font-style: normal;
+    src: url(${BlueVinylRegular});
+  }
   :root {
     --light-grey: hsl(0, 0%, 85%);
     --md-grey: hsl(0, 0%, 46%);
@@ -46,7 +44,7 @@ export const GlobalStyles = styled.createGlobalStyle`
     padding: 0;
   }
   body {
-    font-family: 'Garamond', sans-serif;
+    font-family: 'Nimbus Sans', sans-serif;
     color: var(--dark-grey);
     background-color: var(--bg-off-white);
     font-size: 0.875rem;
@@ -56,12 +54,11 @@ export const GlobalStyles = styled.createGlobalStyle`
     list-style: none;
   }
   a {
-    font-family: 'Garamond Bold';
+    font-family: 'Nimbus Sans Bold';
     text-decoration: none;
     color: inherit;
   }
   h1 > a {
-    font-family: 'Garamond';
-    color: --blue;
+    font-family: 'Blue Vinyl';
   }
 `;

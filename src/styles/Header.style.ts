@@ -21,7 +21,7 @@ export const StyledHeader = styled.header`
     gap: 1rem;
   }
   h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
   @media (max-width: 614px) {
     .container {
