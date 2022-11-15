@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Spacebook/static/css/main.073c9b0a.css",
+    "main.js": "/Spacebook/static/js/main.709d38a0.js",
+    "static/js/787.8eaea4b8.chunk.js": "/Spacebook/static/js/787.8eaea4b8.chunk.js",
+    "static/media/NimbusSanL-Bol.otf": "/Spacebook/static/media/NimbusSanL-Bol.b587a5b85aa8a7466b56.otf",
+    "static/media/NimbusSanL-Reg.otf": "/Spacebook/static/media/NimbusSanL-Reg.dd65e63acb7b91a3a219.otf",
+    "static/media/blue_vinyl_regular.otf": "/Spacebook/static/media/blue_vinyl_regular.7d105274034af3bc93e2.otf",
+    "index.html": "/Spacebook/index.html",
+    "main.073c9b0a.css.map": "/Spacebook/static/css/main.073c9b0a.css.map",
+    "main.709d38a0.js.map": "/Spacebook/static/js/main.709d38a0.js.map",
+    "787.8eaea4b8.chunk.js.map": "/Spacebook/static/js/787.8eaea4b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.709d38a0.js"
+  ]
+}
